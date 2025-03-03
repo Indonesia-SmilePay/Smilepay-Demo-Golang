@@ -1,11 +1,24 @@
 package main
 
+import "SmilePay-Demo-Golang/handle"
+
 func main() {
-	//fmt.Println("Hello, World!")
 
-	//then generate RSA
-	//generateRSA()
+	//Step one, generate RSA key
+	//handle.GenerateRSA()
 
-	//then AccessToken
-	accessToken()
+	//Step two, generate token
+	//handle.AccessToken()
+
+	//Step three, call pay interface
+	handle.PayIn()
+
+	//step four, call inquiry interface
+	//handle.InquiryPaymentMethod()
+
+	//step five, call inquiry account interface
+	//handle.InquiryAccount()
+
+	//step six, call payout interface
+	//handle.PayOut()
 }

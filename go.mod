@@ -1,3 +1,3 @@
-module SmilePay-SDK-Golang
+module SmilePay-Demo-Golang
 
 go 1.21

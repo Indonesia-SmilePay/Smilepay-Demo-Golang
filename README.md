@@ -1,1 +1,1 @@
-# SmilePay-SDK-Golang
+# SmilePay-Demo-Golang
