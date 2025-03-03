@@ -25,7 +25,7 @@ func PayOut() {
 
 	requestData := common.TradePayoutReq{
 		OrderNo:         orderNo,
-		Purpose:         "Purpose for Transaction from Go SDK",
+		Purpose:         "Purpose for Transaction from Go Demo",
 		ProductDetail:   "Product details",
 		AdditionalParam: "Other descriptions",
 		ItemDetailList: []common.ItemDetailList{
